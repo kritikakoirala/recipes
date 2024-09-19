@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { instance } from "../config/config";
 import parse from "html-react-parser";
 import { fetchRecipe } from "../helpers/api";
 import { Loader } from "./Home";

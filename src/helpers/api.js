@@ -1,5 +1,4 @@
-import { base_url, instance } from "../config/config";
-
+import { instance, base_url } from "../config/config.js";
 /**
  * This api fetches all the matched recipes based on the parameters passed
  *
